@@ -1,0 +1,132 @@
+h1{
+    color: white;
+    align-self: center;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    height: 61px;
+    width: 390px;
+    background: #0E2954;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.back{
+    position: absolute;
+    align-self: center;
+    translate: -160px;
+}
+.profile{
+    width: 111px;
+    height: 111px;
+    border-radius: 100px;
+    border-color: 1px solid #00BFF3; ;
+    background-color: azure;
+    align-self: center;
+    margin-left: 5px;
+    translate: 10px 40px;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius : 100px;
+}
+.Edit{
+    translate: 100px 15px;
+}
+.name{
+    color: #BFE3F0;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
+.mention{
+    color: #AEABAB;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+.space{
+    padding: 10px;
+}
+.description{
+    color: #BFE3F0;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+width: 200px;
+}
+.publish{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    /* border-bottom: 10px solid #00BFF3;; */
+    color: #BFE3F0;
+    translate: 70px 10px;
+    font-size: 20px;
+
+}
+.save{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-bottom: 10px solid #00BFF3;
+    color: #BFE3F0;
+    translate: 120px 10px;
+    font-size: 20px;
+}
+p3{
+    color: #BFE3F0;
+font-family: Lato;
+font-size: 13px;
+font-style: normal;
+}
+.fileicon{
+    width: 72px;
+height: 72px;
+border-radius: 100px;
+background-color: #041838;
+translate: 10px 5px;
+align-content: center;
+}
+.svg{
+    translate: 15px 15px;
+}
+p4{
+    color: #FFF;
+font-family: Lato;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 5px;
+}
+p5{
+    color: #9E9D9D;
+font-family: Lato;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+}
+p6{
+    color: white;
+    translate: 0px 5px;
+
+}
+.option{
+    translate: 80px 25px;
+
+}
+.scroll{
+    width: 390px;
+    height: 550px;
+    display: grid;
+    overflow-y: scroll;
+    margin-top: 20px;
+    row-gap: 5px;
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
